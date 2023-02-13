@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+.hamburger-line {
+    @apply w-[30px] h-[2px] my-2 block bg-primary-2 dark:bg-white;
+}
+
+.nav-line {
+    @apply w-full h-[1px] block bg-primary-1 rounded-full;
+}
