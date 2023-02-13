@@ -1061,6 +1061,58 @@ html {
   background-image: url('/dist/img/pricelist/3.png');
 }
 
+.bg-\[url\(\'dist\/img\/porfolio\/1\.jpg\'\)\] {
+  background-image: url('dist/img/porfolio/1.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/porfolio\/2\.jpg\'\)\] {
+  background-image: url('dist/img/porfolio/2.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/porfolio\/3\.jpg\'\)\] {
+  background-image: url('dist/img/porfolio/3.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/porfolio\/4\.jpg\'\)\] {
+  background-image: url('dist/img/porfolio/4.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/porfolio\/5\.jpg\'\)\] {
+  background-image: url('dist/img/porfolio/5.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/porfolio\/7\.jpg\'\)\] {
+  background-image: url('dist/img/porfolio/7.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/porfolio\/6\.jpg\'\)\] {
+  background-image: url('dist/img/porfolio/6.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/porfolio\/8\.jpg\'\)\] {
+  background-image: url('dist/img/porfolio/8.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/porfolio\/9\.jpg\'\)\] {
+  background-image: url('dist/img/porfolio/9.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/porfolio\/10\.jpg\'\)\] {
+  background-image: url('dist/img/porfolio/10.jpg');
+}
+
+.bg-\[url\(\'dist\/img\/pricelist\/1\.png\'\)\] {
+  background-image: url('dist/img/pricelist/1.png');
+}
+
+.bg-\[url\(\'dist\/img\/pricelist\/2\.png\'\)\] {
+  background-image: url('dist/img/pricelist/2.png');
+}
+
+.bg-\[url\(\'dist\/img\/pricelist\/3\.png\'\)\] {
+  background-image: url('dist/img/pricelist/3.png');
+}
+
 .from-neutral-700 {
   --tw-gradient-from: #404040;
   --tw-gradient-to: rgb(64 64 64 / 0);
