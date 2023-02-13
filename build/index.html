@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/dist/img/icon-phi.png">
+    <title>Phi Photograph | Beranda</title>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="fixed top-0 left-0 bg-transparent bg-opacity-70 backdrop-blur-lg w-full shadow z-[9999]">
+        <div class="container m-auto flex justify-between items-center text-gray-700">
+            <a href="/build/index.html">
+                <img class="pl-8 py-4 text-xl font-bold" src="/dist/img/logo.png"></img>
+            </a>
+
+            <ul class="hidden lg:flex items-center text-base font-semibold cursor-pointer">
+                <li class="hover:opacity-70 py-4 px-6">
+                    <div class="nav-line"></div>
+                    <a class="relative" href="/build/index.html">Beranda</a>
+                    <div class="nav-line"></div>
+                </li>
+                <li class="hover:opacity-70 py-4 px-6"><a href="/build/portofolio.html">Portofolio</a></li>
+                <li class="hover:opacity-70 py-4 px-6"><a href="/build/pricelist.html">Pricelist</a></li>
+                <li class="hover:opacity-70 py-4 px-6"><a href="/build/about.html">About</a></li>
+                <li class="hover:opacity-70 py-4 px-6"><a href="/build/hubungi-kami.html">Hubungi Kami</a></li>
+            </ul>
+
+            <!-- Tombol Sign In dan Sign Up Start-->
+            <ul class="hidden lg:flex items-center text-base font-semibold cursor-pointer">
+                <li class=" py-4 px-6 flex items-center gap-2">
+                    <a class="py-1 px-4 text-base tracking-wider hover:opacity-60" href="/build/sign-in.html">Sign
+                        In</a>
+                    <a href="/build/sign-up.html">
+                        <button
+                            class="border-2 rounded-full py-1 px-4 border-primary-1 text-base bg-primary-1 hover:opacity-70 text-white hover:border-primary-1 tracking-wider">Sign
+                            Up
+                        </button>
+                    </a>
+                </li>
+            </ul>
+            <!-- Tombol Sign In dan Sign Up End-->
+
+            <!-- Hamburger Menu Start -->
+            <button class="block lg:hidden py-3 px-4 mx-2 rounded focus:outline-none hover:bg-gray-200 group">
+                <div class="w-5 h-1 bg-gray-600 mb-1"></div>
+                <div class="w-5 h-1 bg-gray-600 mb-1"></div>
+                <div class="w-5 h-1 bg-gray-600 "></div>
+
+                <div
+                    class="absolute top-0 -right-full h-screen w-7/12 md:w-4/12 bg-white border opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
+                    <ul class="flex flex-col items-center w-full text-base cursor-pointer pt-10">
+                        <li class="hover:bg-primary-2 hover:text-white py-4 px-6 w-full"> <a
+                                href="/build/index.html">Beranda</a>
+                        </li>
+                        <li class="hover:bg-primary-2 hover:text-white py-4 px-6 w-full"> <a
+                                href="/build/portofolio.html">Portofolio</a> </li>
+                        <li class="hover:bg-primary-2 hover:text-white py-4 px-6 w-full"> <a
+                                href="/build//pricelist.html">Pricelist</a> </li>
+                        <li class="hover:bg-primary-2 hover:text-white py-4 px-6 w-full"> <a
+                                href="/build/about.html">About</a>
+                        </li>
+                        <li class="hover:bg-primary-2 hover:text-white py-4 px-6 w-full"> <a
+                                href="/build/hubungi-kami.html">Hubungi Kami</a></li>
+                        <!-- Tombol Sign In dan Sign Up Start-->
+                        <li>
+                            <div
+                                class="hover:bg-primary-2 hover:text-white hover:border-primary-2 border-2 rounded-full py-2 px-6 font-bold tracking-wider">
+                                <a href="/build/index.html">Sign In</a>
+                            </div>
+                            <div
+                                class="bg-primary-2 text-white hover:opacity-70 rounded-full py-2 px-6 font-bold tracking-wider mt-3">
+                                <a href="#sign-up">Sign Up</a>
+                            </div>
+                        </li>
+                        <!-- Tombol Sign In dan Sign Up End-->
+                    </ul>
+                </div>
+            </button>
+            <!-- Hamburger Menu End -->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero section start -->
+    <section class="mb-10 pt-24 md:pt-28 lg:pt-32 lg:mb-14">
+        <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8  h-full w-full">
+                <div class="lg:w-full w-full self-center">
+                    <h3 class="text-3xl md:text-5xl lg:text-6xl text-primary-2">PHI <span class="text-primary-1 text-4xl md:text-5xl lg:text-6xl uppercase font-bold block font-mono
+                        font-tt">Photograph</span> </h3>
+                </div>
+                <div
+                    class="lg:w-full bg-gradient-to-tr from-neutral-700 to-neutral-300 h-96 lg:h-auto  w-full relative">
+                    <img class="w-full h-full object-cover mix-blend-overlay relative" src="/dist/img/frame-1.png"
+                        alt="">
+                    <a class="bg-[#F2F2F2] inline-block absolute p-2 ml-4 top-1/2 left-0 hover:opacity-70 hover:shadow-md"
+                        href="#">
+                        <img src="/dist/img/arrow-left.svg" alt="">
+                    </a>
+                    <a class="bg-[#F2F2F2] inline-block absolute p-2 mr-4 top-1/2 right-0 hover:opacity-70 hover:shadow-md"
+                        href="#">
+                        <img src="/dist/img/arrow-right.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- footer start -->
+    <footer class="bg-primary-1 text-white">
+        <div class="container py-5 px-9">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+                <div>
+                    <img src="/dist/img/logo-white.png" alt="">
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold tracking-wider">Informasi</h3>
+                    <ul class="text-base">
+                        <li>
+                            <a href="#">Beranda</a>
+                        </li>
+                        <li>
+                            <a href="#">Portofolio</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricelist</a>
+                        </li>
+                        <li>
+                            <a href="#">Hubungi Kami</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold tracking-wider">Kontak</h3>
+                    <ul class="text-base">
+                        <h3>Nganjuk, Jawa Timur</h3>
+                        <h3>0823 3233 2442</h3>
+                        <h3>phiphotograph@gmail.com</h3>
+                    </ul>
+
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold tracking-wider">Sosial Media</h3>
+                    <div class="flex gap-3">
+                        <img src="/dist/img/facebook.svg" alt="">
+                        <img src="/dist/img/twitter.svg" alt="">
+                        <img src="/dist/img/instagram.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-[2px] w-full bg-primary-2"></div>
+        <div class="text-center py-2">
+            <p>© 2022 All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>
