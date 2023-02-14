@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="dist/output.css">
     <title>Document</title>
 </head>
 
@@ -38,48 +38,6 @@
     </nav>
 
     <section class="mt-20 px-4">
-        <p class="mb-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero qui at aperiam deserunt facilis. Rerum
-            laudantium inventore dicta blanditiis earum, veniam neque eius, quod sunt maiores expedita a sequi ipsa
-            nihil assumenda delectus non cumque?
-        </p>
-        <p class="mb-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero qui at aperiam deserunt facilis. Rerum
-            laudantium inventore dicta blanditiis earum, veniam neque eius, quod sunt maiores expedita a sequi ipsa
-            nihil assumenda delectus non cumque?
-        </p>
-        <p class="mb-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero qui at aperiam deserunt facilis. Rerum
-            laudantium inventore dicta blanditiis earum, veniam neque eius, quod sunt maiores expedita a sequi ipsa
-            nihil assumenda delectus non cumque?
-        </p>
-        <p class="mb-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero qui at aperiam deserunt facilis. Rerum
-            laudantium inventore dicta blanditiis earum, veniam neque eius, quod sunt maiores expedita a sequi ipsa
-            nihil assumenda delectus non cumque?
-        </p>
-        <p class="mb-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero qui at aperiam deserunt facilis. Rerum
-            laudantium inventore dicta blanditiis earum, veniam neque eius, quod sunt maiores expedita a sequi ipsa
-            nihil assumenda delectus non cumque?
-        </p>
-        <p class="mb-3">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic minima excepturi commodi. Placeat, enim.
-            Delectus fugit dolor vel nesciunt! Dignissimos sint accusantium ea aliquid amet doloribus, ipsam eaque
-            dolorum suscipit nam reiciendis omnis vitae fugiat fugit nihil deleniti! Debitis ratione autem adipisci
-            dolores! Porro tempore facere aperiam labore incidunt quis iure temporibus vel nulla necessitatibus eum
-            sequi repellat dolor dignissimos saepe blanditiis, praesentium asperiores consequuntur itaque? Provident
-            nostrum ullam incidunt distinctio cumque ipsum unde commodi tenetur quae placeat sapiente voluptatum,
-            molestiae voluptatem ea aperiam eveniet assumenda. Corporis sint quibusdam, id unde nam ipsam, sunt
-            provident, eum repellendus nemo iure? Reprehenderit laudantium praesentium doloremque esse consequatur!
-            Quisquam reiciendis necessitatibus accusantium, possimus dicta, sed natus amet earum excepturi voluptates
-            rem nam repellat dolor sequi voluptas quae. Voluptates consequuntur laborum ut voluptas, accusamus,
-            laudantium magni repellat aut ipsum, est deleniti? Beatae dolor dolorem, laborum omnis eligendi nemo at
-            saepe aut accusamus laboriosam quis totam excepturi a magni, placeat labore odio voluptatem ad. Voluptatum
-            voluptatibus repudiandae placeat error nam hic magni distinctio possimus beatae totam qui quo ullam,
-            eligendi facere voluptas ex ad. Adipisci, ab doloribus voluptate consequatur quidem similique commodi
-            deleniti et quaerat, ullam a nemo magni voluptas. Aliquam labore pariatur consectetur perspiciatis.
-        </p>
         <p class="mb-3">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic minima excepturi commodi. Placeat, enim.
             Delectus fugit dolor vel nesciunt! Dignissimos sint accusantium ea aliquid amet doloribus, ipsam eaque
@@ -166,16 +124,64 @@
             deleniti et quaerat, ullam a nemo magni voluptas. Aliquam labore pariatur consectetur perspiciatis.
         </p>
     </section>
+
+    <section class="relative flex justify-center items-center gap-5 mb-20 bg-gray-100">
+        <!-- Dropwdown Button Start -->
+        <button
+            class="relative flex justify-center items-center bg-white border focus:outline-none shadow text-gray-600 rounded focus:ring ring-gray-200 group">
+            <p class="px-4">Dropwdown</p>
+                <span class="border-l p-2 hover:bg-gray-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-down-square" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 2.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+                    </svg>
+                </span>
+            <div class="absolute hidden group-focus:block top-full min-w-full w-max bg-white shadow-md mt-1 rounded">
+                <ul class="text-left border rounded">
+                    <li class="px-4 py-1 hover:bg-gray-100 border-b">menu List 1</li>
+                    <li class="px-4 py-1 hover:bg-gray-100 border-b">menu List 2</li>
+                    <li class="px-4 py-1 hover:bg-gray-100 border-b">menu List 3</li>
+                    <li class="px-4 py-1 hover:bg-gray-100 border-b">menu List 4</li>
+                    <li class="px-4 py-1 hover:bg-gray-100">menu List 5</li>
+                </ul>
+            </div>
+        </button>
+        <!-- Dropwdown Button End -->
+    </section>
 </body>
 
 </html>
 
 
 <!-- Tombol User Login Start -->
-<ul class="hidden lg:flex items-center text-base font-semibold cursor-pointer">
+<!-- <ul class="hidden lg:flex items-center text-base font-semibold cursor-pointer">
     <li class=" py-4 px-6 flex items-center gap-2">
         <a href="#sign-in"> <img src="/dist/img/user-circle.svg" alt=""></a>
         <a href="#sign-in"> <img src="/dist/img/arrow-bottom.svg" alt=""></a>
     </li>
-</ul>
+</ul> -->
 <!-- Tombol User Login End -->
+
+<!-- Dropwdown Button Start -->
+<!-- <button
+    class="relative flex justify-center items-center bg-white border focus:outline-none shadow text-gray-600 rounded focus:ring ring-gray-200 group">
+    <p class="px-4">Dropwdown</pc>
+        <span class="border-l p-2 hover:bg-gray-100">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-down-square" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 2.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+            </svg>
+        </span>
+    <div class="absolute hidden group-focus:block top-full min-w-full w-max bg-white shadow-md mt-1 rounded">
+        <ul class="text-left border rounded">
+            <li class="px-4 py-1 hover:bg-gray-100 border-b">menu List 1</li>
+            <li class="px-4 py-1 hover:bg-gray-100 border-b">menu List 2</li>
+            <li class="px-4 py-1 hover:bg-gray-100 border-b">menu List 3</li>
+            <li class="px-4 py-1 hover:bg-gray-100 border-b">menu List 4</li>
+            <li class="px-4 py-1 hover:bg-gray-100">menu List 5</li>
+        </ul>
+    </div>
+</button> -->
+<!-- Dropwdown Button End -->

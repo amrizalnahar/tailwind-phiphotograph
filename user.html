@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
     <link rel="icon" href="dist/img/icon-phi.png">
-    <title>Phi Photograph | Portofolio</title>
+    <title>Phi Photograph | Beranda</title>
 </head>
 
 <body>
@@ -26,34 +26,35 @@
 
             <ul class="hidden lg:flex items-center text-base font-semibold cursor-pointer">
                 <li class="hover:opacity-70 py-4 px-6">
+                    <div class="nav-line"></div>
                     <a class="relative" href="index.html">Beranda</a>
-                </li>
-                <li class="hover:opacity-70 py-4 px-6">
-                    <a href="portofolio.html">Portofolio</a>
-                </li>
-                <li class="hover:opacity-70 py-4 px-6">
-                    <div class="nav-line"></div>
-                    <a href="pricelist.html">Pricelist</a>
                     <div class="nav-line"></div>
                 </li>
+                <li class="hover:opacity-70 py-4 px-6"><a href="portofolio.html">Portofolio</a></li>
+                <li class="hover:opacity-70 py-4 px-6"><a href="pricelist.html">Pricelist</a></li>
                 <li class="hover:opacity-70 py-4 px-6"><a href="about.html">About</a></li>
                 <li class="hover:opacity-70 py-4 px-6"><a href="hubungi-kami.html">Hubungi Kami</a></li>
             </ul>
 
-            <!-- Tombol Sign In dan Sign Up Start-->
-            <ul class="hidden lg:flex items-center text-base font-semibold cursor-pointer">
+            <!-- Tombol User Login Start -->
+            <button class="hidden lg:flex items-center text-base font-semibold cursor-pointer relative group">
                 <li class=" py-4 px-6 flex items-center gap-2">
-                    <a class="py-1 px-4 text-base tracking-wider hover:opacity-60" href="sign-in.html">Sign
-                        In</a>
-                    <a href="sign-up.html">
-                        <button
-                            class="border-2 rounded-full py-1 px-4 border-primary-1 text-base bg-primary-1 hover:opacity-70 text-white hover:border-primary-1 tracking-wider">Sign
-                            Up
-                        </button>
-                    </a>
+                    <a href="#sign-in"> <img src="/dist/img/user-circle.svg" alt=""></a>
+                    <p class="text-sm underline underline-offset-4 font-semibold">Hai, Tongji</p>
+                    <a href="#sign-in"> <img src="/dist/img/arrow-bottom.svg" alt=""></a>
                 </li>
-            </ul>
-            <!-- Tombol Sign In dan Sign Up End-->
+                <div
+                    class="absolute hidden group-focus:block top-full min-w-full w-max bg-white shadow-md mt-1 rounded">
+                    <ul class="text-left border rounded">
+                        <li class="px-4 py-2 hover:bg-gray-100 border-b"> <a href="user-account.html">Akun Saya</a>
+                        </li>
+                        <li class="px-4 py-2 hover:bg-gray-100 border-b"> <a href="user-pesanan.html">Keranjang
+                                Pesanan</a> </li>
+                        <li class="px-4 py-2 hover:bg-gray-100 border-b"> <a href="user-log-out.html">Log-out</a> </li>
+                    </ul>
+                </div>
+            </button>
+            <!-- Tombol User Login End -->
 
             <!-- Hamburger Menu Start -->
             <button class="block lg:hidden py-3 px-4 mx-2 rounded focus:outline-none hover:bg-gray-200 group">
@@ -79,12 +80,17 @@
                         <li>
                             <div
                                 class="hover:bg-primary-2 hover:text-white hover:border-primary-2 border-2 rounded-full py-2 px-6 font-bold tracking-wider">
-                                <a href="sign-in.html">Sign In</a>
+                                <a href="user-account.html">Akun Saya</a>
                             </div>
                             <div
-                                class="bg-primary-2 text-white hover:opacity-70 rounded-full py-2 px-6 font-bold tracking-wider mt-3">
-                                <a href="sign-up.html">Sign Up</a>
+                                class="hover:bg-primary-2 hover:text-white hover:border-primary-2 border-2 rounded-full py-2 px-6 font-bold tracking-wider my-2">
+                                <a href="user-pesanan.html">Keranjang Saya</a>
                             </div>
+                            <div
+                                class="hover:bg-primary-2 hover:text-white hover:border-primary-2 border-2 rounded-full py-2 px-6 font-bold tracking-wider">
+                                <a href="user-log-out.html">Log-out</a>
+                            </div>
+
                         </li>
                         <!-- Tombol Sign In dan Sign Up End-->
                     </ul>
@@ -96,75 +102,29 @@
     <!-- Navbar End -->
 
     <!-- Hero section start -->
-    <section class="mb-10 pt-24 md:pt-28 lg:pt-32 lg:mb-14">
+    <section class="mb-10 pt-16 md:pt-28 lg:pt-32 lg:mb-14">
         <div class="container">
-            <div>
-                <h3 class="text-4xl md:text-5xl lg:text-6xl text-primary-2 text-center">Price<span
-                        class="text-4xl md:text-5xl lg:text-6xl text-primary-1 font-semibold">list
-                    </span>
-                </h3>
-                <div class="h-[3px] w-12/12 bg-primary-2 block "></div>
+            <div class="flex flex-wrap">
+                <div class="w-full self-center md:w-2/5">
+                    <img class="max-w-xs md:w-auto" src="dist/img/logo-phi.png" alt="">
+                </div>
+                <div class="w-full self-center md:w-3/5">
+                    <h3 class="text-[#BDBDBD] text-2xl md:text-3xl lg:text-5xl">Selamat Datang,</h3>
+                    <h3 class="text-primary-1 text-2xl md:text-3xl lg:text-5xl font-semibold" >Di Phi Photograph</h3>
+                    <p class="text-base mt-4 text-primary-1 text-justify ">
+                        Phi Photograph merupakan salah satu jasa foto freelancer yang aktif di Kota Nganjuk, Jawa Timur.
+                        Memiliki tim yang beranggotakan 4 orang yang masing-masing memiliki pengalaman dalam bidang
+                        fotografi dan multimedia yang dimiliki.
+                        Phi Photograph menyediakan berbagai paket foto yang menarik sehingga banyak anak muda dan orang
+                        tua merasa puas dengan hasil yang diberikan.
+                        Saat ini Phi Photograph sedang mengupgrade teknologi yang dimilikinya salah satunya website yang
+                        menyediakan layanan pemesanan sehingga memudahkan Phi Photograph berkomunikasi dengan pelanggan
+                        setia mereka.
+                    </p>
+                </div>
             </div>
 
-            <div class="flex flex-cols-1 sm:flex-cols-2 gap-2 sm:gap-6 mt-6 lg:justify-center">
-                <!-- <div class="hidden sm:flex sm:w-10/12 lg:w-3/6 h-72 bg-cover"
-                    style="background-image: url('/dist/img/pricelist/1.png');">
-                </div> -->
-                <img class="hidden sm:flex sm:w-10/12 lg:w-3/6 h-72 bg-cover bg-center" src="dist/img/pricelist/1.png"
-                    alt="">
-                <div class=" bg-primary-3 p-4 sm:w-6/12 lg:w-3/12 sm:h-72">
-                    <img class="sm:hidden" src="dist/img/pricelist/1.png" alt="">
-                    <div class="grid justify-items-center">
-                        <h3 class="text-xl md:text-base lg:text-2xl  mt-3 font-semibold">Paket Wedding</h3>
-                        <p class="text-sm md:text-xs lg:text-base my-4 text-center">Untuk mengabadikan momen bersejarah
-                            antara 2 manusia yang memiliki ikatan, kami menyediakan paket Wedding untuk memberikan
-                            kenangan yang begitu indah</p>
-                        <a href="paket-wedding.html"> <button
-                                class="bg-white px-6 py-2 flex md:text-xs md:px-4 md:py-2 md:gap-1 text-sm items-center gap-2 uppercase hover:opacity-70">
-                                View More <img src="dist/img/arrow-right.svg" alt=""> </button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="flex flex-cols-1 sm:flex-cols-2 gap-2 sm:gap-6 mt-6 lg:justify-center">
-                <div class=" bg-primary-3 p-4 sm:w-6/12 lg:w-3/12 sm:h-72">
-                    <img class="sm:hidden" src="dist/img/pricelist/2.png" alt="">
-                    <div class="grid justify-items-center">
-                        <h3 class="text-xl md:text-base lg:text-2xl  mt-3 font-semibold">Paket Prewedding</h3>
-                        <p class="text-sm md:text-xs lg:text-base my-4 text-center">Prewedding merupakan momen
-                            mengabadikan sebelum
-                            acara sakral
-                            pernikahan diadakan yang memberikan kesan keromantisan masing-masing pasangan.</p>
-                        <button
-                            class="bg-white px-6 py-2 flex md:text-xs md:px-4 md:py-2 md:gap-1 text-sm items-center gap-2 uppercase hover:opacity-70">
-                            View More <img src="dist/img/arrow-right.svg" alt=""> </button>
-                    </div>
-                </div>
-                <!-- <div class="hidden sm:flex sm:w-10/12 lg:w-3/6 h-72 bg-cover"
-                    style="background-image: url('/dist/img/pricelist/2.png');">
-                </div> -->
-                <img class="hidden sm:flex sm:w-10/12 lg:w-3/6 h-72 bg-cover bg-center" src="dist/img/pricelist/2.png"
-                    alt="">
-            </div>
-            <div class="flex flex-cols-1 sm:flex-cols-2 gap-2 sm:gap-6 mt-6 lg:justify-center">
-                <!-- <div class="hidden sm:flex sm:w-10/12 lg:w-3/6 h-72 bg-cover bg-center"
-                    style="background-image: url('/dist/img/pricelist/3.png');">
-                </div> -->
-                <img class="hidden sm:flex sm:w-10/12 lg:w-3/6 h-72 bg-cover bg-center" src="dist/img/pricelist/3.png"
-                    alt="">
-                <div class=" bg-primary-3 p-4 sm:w-6/12 lg:w-3/12 sm:h-72">
-                    <img class="sm:hidden" src="dist/img/pricelist/3.png" alt="">
-                    <div class="grid justify-items-center">
-                        <h3 class="text-xl md:text-xl lg:text-2xl mt-3 font-semibold">Paket Photoshot</h3>
-                        <p class="text-sm md:text-xs lg:text-base my-4 text-center">Untuk mengabadikan momen tertentu
-                            kepada anda, kami menyediakan paket photoshot untuk memberikan kenangan yang begitu indah.
-                        </p>
-                        <button
-                            class="bg-white px-6 py-2 flex text-sm md:text-xs md:px-4 md:py-2 md:gap-1 items-center gap-2 uppercase hover:opacity-70">
-                            View More <img src="dist/img/arrow-right.svg" alt=""> </button>
-                    </div>
-                </div>
-            </div>
+           
         </div>
     </section>
     <!-- Hero section end -->
