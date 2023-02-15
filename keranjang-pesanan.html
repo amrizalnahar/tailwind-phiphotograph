@@ -99,60 +99,66 @@
     <section class="mb-10 pt-24 md:pt-28 lg:pt-32 lg:mb-14">
         <div class="container">
             <div>
-                <h3 class="text-4xl md:text-5xl lg:text-6xl text-primary-2 text-center">Paket<span
-                        class="text-4xl md:text-5xl lg:text-6xl text-primary-1 font-semibold">Wedding
+                <h3 class="text-3xl md:text-4xl lg:text-5xl text-[#BDBDBD]">Keranjang<span
+                        class="text-3xl md:text-4xl lg:text-5xl text-primary-1 font-semibold block">Pesanan
                     </span>
                 </h3>
-                <div class="h-[3px] w-12/12 bg-primary-2 block mt-2"></div>
             </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-3 lg:gap-4 mt-3">
-                <div class=" bg-[#E1F4F3] gap-1 text-primary-2 flex flex-col text-center space-y-3 pb-7">
-                    <h3 class="bg-black py-2 px-6 text-white text-xl font-semibold tracking-wider">Wedding 1</h3>
-                    <h3 class=" text-3xl font-semibold"><sup class="text-sm align-top">Rp</sup>750.000</h3>
-                    <div class="divide-y divide-solid block justify-center">
-                        <h4 class="text-base">✅All Soft File</h4>
-                        <h4>✅Edit 40 Photo</h4>
-                        <h4>✅Album dan Flashdisk</h4>
-                    </div>
-                    <div>
-                        <a href="pesan-wedding.html"> <button
-                                class="text-base text-white bg-green-500 py-2 px-8 rounded-lg shadow hover:opacity-70 inline">Pilih</button>
-                        </a>
-                    </div>
-                    <p class="text-xs px-9">untuk harga lebih tepat, silahkan hubungi admin whatsapp kami.</p>
-                </div>
-                <div class=" bg-[#E1F4F3] gap-1 text-primary-2 flex flex-col text-center space-y-3 pb-7">
-                    <h3 class="bg-black py-2 px-6 text-white text-xl font-semibold tracking-wider">Wedding 2</h3>
-                    <h3 class=" text-3xl font-semibold"><sup class="text-sm align-top">Rp</sup>1.800.000</h3>
-                    <div class="divide-y divide-solid block justify-center">
-                        <h4 class="text-base">✅All Soft File</h4>
-                        <h4>✅Edit 80 Photo</h4>
-                        <h4>✅Album dan Flashdisk</h4>
-                    </div>
-                    <div>
-                        <button
-                            class="text-base text-white bg-green-500 py-2 px-8 rounded-lg shadow hover:opacity-70 inline">Pilih</button>
-                    </div>
-                    <p class="text-xs px-9">untuk harga lebih tepat, silahkan hubungi admin whatsapp kami.</p>
-                </div>
-                <div class=" bg-[#E1F4F3] gap-1 text-primary-2 flex flex-col text-center space-y-3 pb-7">
-                    <h3 class="bg-black py-2 px-6 text-white text-xl font-semibold tracking-wider">Wedding SPesial</h3>
-                    <h3 class=" text-3xl font-semibold"><sup class="text-sm align-top">Rp</sup>2.000.000</h3>
-                    <div class="divide-y divide-solid block justify-center">
-                        <h4 class="text-base">✅All Soft File</h4>
-                        <h4>✅Edit 120 Photo</h4>
-                        <h4>✅Album dan Flashdisk</h4>
-                    </div>
-                    <div>
-                        <button
-                            class="text-base text-white bg-green-500 py-2 px-8 rounded-lg shadow hover:opacity-70 inline">Pilih</button>
-                    </div>
-                    <p class="text-xs px-9">untuk harga lebih tepat, silahkan hubungi admin whatsapp kami.</p>
-                </div>
+            <div class="w-full overflow-auto mt-10">
+                <table class="table-auto border-collapse w-full text-center text-xs md:text-sm lg:text-base">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>No. Paket</th>
+                            <th>Tanggal Pemesanan</th>
+                            <th>Nama Paket</th>
+                            <th>Catatan Tambahan</th>
+                            <th>Harga</th>
+                            <th>Status Pesanan</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>A02</td>
+                            <td>12 Juni 2022 09.00 - Selesai</td>
+                            <td>Wedding 1</td>
+                            <td>Tambah foto sponsor Wedding</td>
+                            <td>Rp.750.000</td>
+                            <td>
+                                <a href="pembayaran-pesanan.html"
+                                    class="px-2 py-1 rounded-full bg-[#FEF2E5] text-[#CD6200] inline-block">
+                                    open
+                                </a>
+                            </td>
+                            <td class="flex flex-wrap gap-2">
+                                <a href="lihat-pesanan.html"><img src="dist/img/action-view.png" alt=""></a>
+                                <a href=""><img src="dist/img/action-edit.png" alt=""></a>
+                                <a href=""><img src="dist/img/action-delete.png" alt=""></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>A03</td>
+                            <td>13 Juni 2022 09.00 - Selesai</td>
+                            <td>Wedding 2</td>
+                            <td>Tambah foto sponsor Wedding</td>
+                            <td>Rp.1.800.000</td>
+                            <td>
+                                <a href="" class="px-2 py-1 rounded-full bg-[#FEF2E5] text-[#CD6200] inline-block">
+                                    open
+                                </a>
+                            </td>
+                            <td class="flex flex-wrap gap-2">
+                                <a href="lihat-pesanan.html"><img src="dist/img/action-view.png" alt=""></a>
+                                <a href=""><img src="dist/img/action-edit.png" alt=""></a>
+                                <a href=""><img src="dist/img/action-delete.png" alt=""></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-
-
         </div>
     </section>
     <!-- Hero section end -->

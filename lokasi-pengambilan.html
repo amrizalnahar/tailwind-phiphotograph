@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
     <link rel="icon" href="dist/img/icon-phi.png">
-    <title>Phi Photograph | Portofolio</title>
+    <title>Phi Photograph | Beranda</title>
 </head>
 
 <body>
@@ -26,34 +26,35 @@
 
             <ul class="hidden lg:flex items-center text-base font-semibold cursor-pointer">
                 <li class="hover:opacity-70 py-4 px-6">
+                    <div class="nav-line"></div>
                     <a class="relative" href="index.html">Beranda</a>
-                </li>
-                <li class="hover:opacity-70 py-4 px-6">
-                    <a href="portofolio.html">Portofolio</a>
-                </li>
-                <li class="hover:opacity-70 py-4 px-6">
-                    <div class="nav-line"></div>
-                    <a href="pricelist.html">Pricelist</a>
                     <div class="nav-line"></div>
                 </li>
+                <li class="hover:opacity-70 py-4 px-6"><a href="portofolio.html">Portofolio</a></li>
+                <li class="hover:opacity-70 py-4 px-6"><a href="pricelist.html">Pricelist</a></li>
                 <li class="hover:opacity-70 py-4 px-6"><a href="about.html">About</a></li>
                 <li class="hover:opacity-70 py-4 px-6"><a href="hubungi-kami.html">Hubungi Kami</a></li>
             </ul>
 
-            <!-- Tombol Sign In dan Sign Up Start-->
-            <ul class="hidden lg:flex items-center text-base font-semibold cursor-pointer">
+            <!-- Tombol User Login Start -->
+            <button class="hidden lg:flex items-center text-base font-semibold cursor-pointer relative group">
                 <li class=" py-4 px-6 flex items-center gap-2">
-                    <a class="py-1 px-4 text-base tracking-wider hover:opacity-60" href="sign-in.html">Sign
-                        In</a>
-                    <a href="sign-up.html">
-                        <button
-                            class="border-2 rounded-full py-1 px-4 border-primary-1 text-base bg-primary-1 hover:opacity-70 text-white hover:border-primary-1 tracking-wider">Sign
-                            Up
-                        </button>
-                    </a>
+                    <span> <img src="/dist/img/user-circle.svg" alt=""></span>
+                    <p class="text-sm underline underline-offset-4 font-semibold">Hai, Tongji</p>
+                    <span> <img src="/dist/img/arrow-bottom.svg" alt=""></span>
                 </li>
-            </ul>
-            <!-- Tombol Sign In dan Sign Up End-->
+                <div
+                    class="absolute hidden group-focus:block top-full min-w-full w-max bg-white shadow-md mt-1 rounded">
+                    <ul class="text-left border rounded">
+                        <li class="px-4 py-2 hover:bg-gray-100 border-b"> <a href="user-account.html">Akun Saya</a>
+                        </li>
+                        <li class="px-4 py-2 hover:bg-gray-100 border-b"> <a href="user-pesanan.html">Keranjang
+                                Pesanan</a> </li>
+                        <li class="px-4 py-2 hover:bg-gray-100 border-b"> <a href="user-log-out.html">Log-out</a> </li>
+                    </ul>
+                </div>
+            </button>
+            <!-- Tombol User Login End -->
 
             <!-- Hamburger Menu Start -->
             <button class="block lg:hidden py-3 px-4 mx-2 rounded focus:outline-none hover:bg-gray-200 group">
@@ -79,12 +80,17 @@
                         <li>
                             <div
                                 class="hover:bg-primary-2 hover:text-white hover:border-primary-2 border-2 rounded-full py-2 px-6 font-bold tracking-wider">
-                                <a href="sign-in.html">Sign In</a>
+                                <a href="user-account.html">Akun Saya</a>
                             </div>
                             <div
-                                class="bg-primary-2 text-white hover:opacity-70 rounded-full py-2 px-6 font-bold tracking-wider mt-3">
-                                <a href="sign-up.html">Sign Up</a>
+                                class="hover:bg-primary-2 hover:text-white hover:border-primary-2 border-2 rounded-full py-2 px-6 font-bold tracking-wider my-2">
+                                <a href="user-pesanan.html">Keranjang Saya</a>
                             </div>
+                            <div
+                                class="hover:bg-primary-2 hover:text-white hover:border-primary-2 border-2 rounded-full py-2 px-6 font-bold tracking-wider">
+                                <a href="user-log-out.html">Log-out</a>
+                            </div>
+
                         </li>
                         <!-- Tombol Sign In dan Sign Up End-->
                     </ul>
@@ -96,63 +102,27 @@
     <!-- Navbar End -->
 
     <!-- Hero section start -->
-    <section class="mb-10 pt-24 md:pt-28 lg:pt-32 lg:mb-14">
+    <section class="mb-28 pt-24 md:pt-28 lg:pt-32 lg:mb-14">
         <div class="container">
-            <div>
-                <h3 class="text-4xl md:text-5xl lg:text-6xl text-primary-2 text-center">Paket<span
-                        class="text-4xl md:text-5xl lg:text-6xl text-primary-1 font-semibold">Wedding
-                    </span>
-                </h3>
-                <div class="h-[3px] w-12/12 bg-primary-2 block mt-2"></div>
-            </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-3 lg:gap-4 mt-3">
-                <div class=" bg-[#E1F4F3] gap-1 text-primary-2 flex flex-col text-center space-y-3 pb-7">
-                    <h3 class="bg-black py-2 px-6 text-white text-xl font-semibold tracking-wider">Wedding 1</h3>
-                    <h3 class=" text-3xl font-semibold"><sup class="text-sm align-top">Rp</sup>750.000</h3>
-                    <div class="divide-y divide-solid block justify-center">
-                        <h4 class="text-base">✅All Soft File</h4>
-                        <h4>✅Edit 40 Photo</h4>
-                        <h4>✅Album dan Flashdisk</h4>
-                    </div>
-                    <div>
-                        <a href="pesan-wedding.html"> <button
-                                class="text-base text-white bg-green-500 py-2 px-8 rounded-lg shadow hover:opacity-70 inline">Pilih</button>
+            <h3 class="text-3xl md:text-4xl lg:text-5xl text-[#BDBDBD]">Alamat</h3>
+            <h3 class="text-3xl md:text-4xl lg:text-5xl font-semibold ">Pengambilan</h3>
+
+            <div class="flex flex-wrap justify-between lg:mt-6">
+                <div class="w-full font-semibold text-base lg:text-xl md:w-1/2 overflow-hidden py-6 leading-tight relative order-first lg:order-last">
+                    <p>Berikut alamat pengambilan hasil foto
+                        Studio Phi Photograph, 
+                        Jl. Nanas, Tiripan, Nganjuk, Jawa Timur
+                        atau Chat admin dahulu untuk proses 
+                        pengambilan</p>
+                        <a href="#sudah-ambil"> <button
+                            class="border py-2 px-3 text-white font-semibold tracking-widest hover:opacity-70 hover:drop-shadow-md bg-green-600 text-sm lg:absolute bottom-5 right-5 rounded-full mt-6">Sudah Ambil</button>
                         </a>
-                    </div>
-                    <p class="text-xs px-9">untuk harga lebih tepat, silahkan hubungi admin whatsapp kami.</p>
                 </div>
-                <div class=" bg-[#E1F4F3] gap-1 text-primary-2 flex flex-col text-center space-y-3 pb-7">
-                    <h3 class="bg-black py-2 px-6 text-white text-xl font-semibold tracking-wider">Wedding 2</h3>
-                    <h3 class=" text-3xl font-semibold"><sup class="text-sm align-top">Rp</sup>1.800.000</h3>
-                    <div class="divide-y divide-solid block justify-center">
-                        <h4 class="text-base">✅All Soft File</h4>
-                        <h4>✅Edit 80 Photo</h4>
-                        <h4>✅Album dan Flashdisk</h4>
-                    </div>
-                    <div>
-                        <button
-                            class="text-base text-white bg-green-500 py-2 px-8 rounded-lg shadow hover:opacity-70 inline">Pilih</button>
-                    </div>
-                    <p class="text-xs px-9">untuk harga lebih tepat, silahkan hubungi admin whatsapp kami.</p>
-                </div>
-                <div class=" bg-[#E1F4F3] gap-1 text-primary-2 flex flex-col text-center space-y-3 pb-7">
-                    <h3 class="bg-black py-2 px-6 text-white text-xl font-semibold tracking-wider">Wedding SPesial</h3>
-                    <h3 class=" text-3xl font-semibold"><sup class="text-sm align-top">Rp</sup>2.000.000</h3>
-                    <div class="divide-y divide-solid block justify-center">
-                        <h4 class="text-base">✅All Soft File</h4>
-                        <h4>✅Edit 120 Photo</h4>
-                        <h4>✅Album dan Flashdisk</h4>
-                    </div>
-                    <div>
-                        <button
-                            class="text-base text-white bg-green-500 py-2 px-8 rounded-lg shadow hover:opacity-70 inline">Pilih</button>
-                    </div>
-                    <p class="text-xs px-9">untuk harga lebih tepat, silahkan hubungi admin whatsapp kami.</p>
+                <div class="w-full self-center md:w-1/2 overflow-hidden object-cover object-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d506192.7885334583!2d111.66707332608358!3d-7.615052008889772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e784be1466228d1%3A0x3027a76e352bdc0!2sKabupaten%20Nganjuk%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1676449426458!5m2!1sid!2sid" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-
-
         </div>
     </section>
     <!-- Hero section end -->
